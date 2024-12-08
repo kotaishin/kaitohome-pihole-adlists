@@ -1,0 +1,15 @@
+#KaitoHome PiHole Adlists
+#This is for testing purpose.
+
+fandom.com##.global-navigation
+fandom.com##.is-visible.fandom-sticky-header
+fandom.com##.wikia-bar-anon.wikia-bar
+fandom.com##.WikiaRail.right-rail-wrapper
+fandom.com##.page__right-rail
+fandom.com##.mcf-wrapper
+fandom.com##.wds-global-footer
+fandom.com##.instant-suggestion
+fandom.com##.page-side-tools
+fandom.com##.fandom-community-header__community-name-wrapper
+fandom.com##.fandom-community-header__background
+fandom.com##.ad-slot-placeholder
