@@ -1,15 +1,32 @@
 #KaitoHome PiHole Adlists
 #This is for testing purpose.
 
-fandom.com##.global-navigation
-fandom.com##.is-visible.fandom-sticky-header
-fandom.com##.wikia-bar-anon.wikia-bar
-fandom.com##.WikiaRail.right-rail-wrapper
-fandom.com##.page__right-rail
-fandom.com##.mcf-wrapper
-fandom.com##.wds-global-footer
-fandom.com##.instant-suggestion
-fandom.com##.page-side-tools
-fandom.com##.fandom-community-header__community-name-wrapper
-fandom.com##.fandom-community-header__background
-fandom.com##.ad-slot-placeholder
+#localhost
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
+#Adlists
+0.0.0.0 fandom.com##.global-navigation
+0.0.0.0 fandom.com##.is-visible.fandom-sticky-header
+0.0.0.0 fandom.com##.wikia-bar-anon.wikia-bar
+0.0.0.0 fandom.com##.WikiaRail.right-rail-wrapper
+0.0.0.0 fandom.com##.page__right-rail
+0.0.0.0 fandom.com##.mcf-wrapper
+0.0.0.0 fandom.com##.wds-global-footer
+0.0.0.0 fandom.com##.instant-suggestion
+0.0.0.0 fandom.com##.page-side-tools
+0.0.0.0 fandom.com##.fandom-community-header__community-name-wrapper
+0.0.0.0 fandom.com##.fandom-community-header__background
+0.0.0.0 fandom.com##.ad-slot-placeholder
