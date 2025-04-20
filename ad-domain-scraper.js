@@ -13,13 +13,15 @@ const puppeteer = require('puppeteer');
 
         // Match typical ad/tracker domains
         const adIndicators = ['ads', 'doubleclick', 'track', 'analytics', 'sponsor'];
-        if (adIndicators.some(indicator => hostname.includes(indicator))) {
+        if (adIndicators.some(indicator => hostname.includes(indicator)) && request.resourceType() === 'script' || request.resourceType() === 'xhr') {
             adDomains.add(hostname);
         }
+
+        
     });
 
     // Go to target website (change this!)
-    const targetUrl = 'https://gup.fandom.com/wiki/Shiho_Nishizumi';
+    const targetUrl = 'http://nhentai.net/language/english/popular?page=95';
     await page.goto(targetUrl, { waitUntil: 'networkidle2' });
 
     // Wait a bit longer for lazy-loaded ads
