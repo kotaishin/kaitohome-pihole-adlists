@@ -30,3 +30,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 fandom.com##.fandom-community-header__community-name-wrapper
 0.0.0.0 fandom.com##.fandom-community-header__background
 0.0.0.0 fandom.com##.ad-slot-placeholder
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 cdn.adsafeprotected.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 pixel.adsafeprotected.com
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 config.aps.amazon-adsystem.com
+0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 ads.servenobid.com
+0.0.0.0 www.doubleclick.net
+0.0.0.0 ads.pubmatic.com
