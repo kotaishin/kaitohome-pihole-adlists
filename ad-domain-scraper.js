@@ -21,7 +21,7 @@ const puppeteer = require('puppeteer');
     });
 
     // Go to target website (change this!)
-    const targetUrl = 'http://nhentai.net/language/english/popular?page=95';
+    const targetUrl = 'https://www.psu.com/news/hideo-kojima-reveals-the-impact-of-gta-vi-on-game-release-dates-says-he-originally-wanted-death-stranding-2-out-in-september/';
     await page.goto(targetUrl, { waitUntil: 'networkidle2' });
 
     // Wait a bit longer for lazy-loaded ads
